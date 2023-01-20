@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoPortal-Zadatak</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <main>
+                <div class="product-image">
+                    <img class="img-responsive" src="images/spider_web.png" alt="">
+                </div>
+                <div class="description-wrapper">
+                    <div class="description-info">
+                        <div class="description-info-item">
+                            <div class="small-title">Galerija</div>
+                            <span>Stock</span>
+                        </div>
+                        <div class="description-info-item">
+                            <div class="small-title">Autor</div>
+                            <span>Ivan Horvat</span>
+                        </div>
+                        <div class="description-info-item">
+                            <div class="small-title">Agencija</div>
+                            <span>Smart Code</span>
+                        </div>
+                    </div>
+                    <div class="description-text">
+                        <div class="small-title">Opis</div>
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters, as opposed to using 'Content here, content
+                            here', making it look like readable English. Many desktop publishing packages and web page
+                            editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                            uncover many web sites still in their infancy. Various versions have evolved over the years,
+                            sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </p>
+                    </div>
+                    <div class="keywords-wrapper">
+                        <div class="small-title">Ključne riječi</div>
+                        <div class="description-keywords">
+                            <div class="keyword-item">Nogomet</div>
+                            <div class="keyword-item">Italija</div>
+                            <div class="keyword-item">Serie A</div>
+                            <div class="keyword-item">Genua</div>
+                            <div class="keyword-item">Italien</div>
+                            <div class="keyword-item">Fussball</div>
+                            <div class="keyword-item">Soccer</div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <aside>
+                <div>
+                    Kako mogu koristiti ovaj sadržaj? <span class="exc-mark">i</span>
+                </div>
+                <div class="aside-image-type">
+                    <div class="image-type-title">
+                        IMAGE 001
+                    </div>
+                    <!-- OPTION ITEM -->
+                    <div class="image-type-option">
+                        <label for="radio1" class="image-type-option-select-wrapper w-100">
+                            <div class="selector-wrapper">
+                                <input id="radio1" type="radio" name="size" id="">
+                                <span>Large</span>
+                                <small>Print (2667x4000)</small>
+                            </div>
+                        </label>
+                        <div class="image-type-option-price">170.00KN</div>
+                    </div>
+                    <div class="image-type-option">
+                        <label for="radio2" class="image-type-option-select-wrapper w-100">
+                            <div class="selector-wrapper">
+                                <input id="radio2" type="radio" name="size" id="">
+                                <span>Small</span>
+                                <small>Web (1072x1600)</small>
+                            </div>
+                        </label>
+                        <div class="image-type-option-price">130.00KN</div>
+                    </div>
+                </div>
+                <div class="author-checkbox margin-t-1">
+                    <div class="flex-center">
+                        <input id="checkbox" type="checkbox">
+                        <label for="checkbox">Preuzmi s potpisom autora</label>
+                    </div>
+                </div>
+                <div class="margin-t-2">
+                    <button class="large-icon-button default-btn gray-bg w-100 text-uppercase margin-b-1">
+                        <svg width="13" height="16" viewBox="0 0 13 16" fill="#212121" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13 9.25255L11.6907 7.94804L7.42857 12.1854V0.000732422H5.57143V12.1854L1.30929 7.93879L0 9.25255L6.5 15.7288L13 9.25255Z" />
+                        </svg>
+                        Preuzmi sadržaj</button>
+                    <div class="flex-center margin-b-2 space-between">
+                        <button class="default-btn">Pošalji u sustav</button>
+                        <button class="default-btn">Pošalji u CMS</button>
+                    </div>
+
+                    <button class="margin-b-1 large-icon-button default-btn black-bg text-uppercase w-100">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.1112 12.4448C10.1112 13.6523 11.4875 14.5385 12.7563 13.621C12.7888 13.5972 12.8187 13.5673 12.8425 13.5347C13.76 12.2648 12.8738 10.8898 11.6663 10.8898C10.8075 10.8885 10.1112 11.5848 10.1112 12.4448ZM2.33375 12.4448C2.33375 13.6523 3.71 14.5385 4.97875 13.621C5.01125 13.5972 5.04125 13.5673 5.065 13.5347C5.9825 12.2648 5.09625 10.8898 3.88875 10.8898C3.03 10.8885 2.33375 11.5848 2.33375 12.4448ZM5.0925 8.6885L13.7013 6.22975C13.8737 6.17225 13.9925 6.01475 14.0013 5.8335V1.92975C14.0013 1.72226 13.8338 1.55476 13.6263 1.55476H3.48625C3.27875 1.55476 3.11125 1.38726 3.11125 1.17976V0.311006C3.11 0.139756 2.9725 0.00100586 2.80125 -0.000244141H0.31125C0.13875 -0.000244141 0 0.139756 0 0.311006V1.18101C0 1.38851 0.1675 1.55601 0.375 1.55601H1.2525C1.43 1.55601 1.5825 1.67976 1.61875 1.85226L3.0375 8.501C3.04 8.51475 3.0425 8.52975 3.04375 8.5435L3.11 9.23725C3.11125 9.2485 3.11125 9.261 3.11125 9.27225V10.5373C3.1125 10.7085 3.25125 10.8473 3.4225 10.8485H13.6888C13.86 10.8473 13.9987 10.7085 14 10.5373V9.70725C14 9.49975 13.8325 9.33225 13.625 9.33225H5.25C4.355 9.33225 4.3375 8.9035 5.09 8.6885H5.0925Z" />
+                        </svg>
+                        Dodaj u košaricu
+                    </button>
+                    <button class="large-icon-button default-btn white-bg w-100">
+                        <svg width="13" height="16" viewBox="0 0 13 16" fill="fill=" #212121"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13 9.25255L11.6907 7.94804L7.42857 12.1854V0.000732422H5.57143V12.1854L1.30929 7.93879L0 9.25255L6.5 15.7288L13 9.25255Z" />
+                        </svg>
+                        Preuzmi pregledni primjerak
+                    </button>
+                </div>
+                <div class="aside-info-wrapper">
+                    <div class="small-title">Posebne napomene</div>
+                    <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer.
+
+                    </p>
+                    <div class="small-title">Posebne napomene</div>
+                    <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                        only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged.
+                    </p>
+                    <div class="small-title">Posebne napomene</div>
+                    <p>
+                        It has survived not only five centuries, but also the leap into electronic typesetting.
+                    </p>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+</body>
+
+</html>
